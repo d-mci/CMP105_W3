@@ -22,5 +22,15 @@ private:
 
 	// Default variables for level class.
 	sf::RenderWindow* window;
+	sf::RectangleShape rect;
+	sf::RectangleShape rect2;
+	sf::RectangleShape rect3;
+	sf::Clock clock;
+
 	Input* input;
+
+
+	float speed;	
+	float player_speed;
+	bool reverse;
 };
